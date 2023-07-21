@@ -39,3 +39,39 @@ export const categories = [
     title: "LIGHT JACKETS",
   },
 ];
+
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1546913198-cd3e8c88cfca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1619681348931-12e60177babc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1572196284554-4e321b0e7e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1583291023464-83394f2c67a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 5,
+    img: "https://images.unsplash.com/photo-1592007359885-0a8ab1fde063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEwfHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1591561954555-607968c989ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 7,
+    img: "https://images.unsplash.com/photo-1598560917807-1bae44bd2be8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    id: 8,
+    img: "https://images.unsplash.com/photo-1565693413579-8ff3fdc1b03b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c3dlYXRzaGlydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+];
