@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <div>
-      <Container>Super great fun adventure sale!!!! :3</Container>
+      <Container>Summer specials going on now! :3</Container>
     </div>
   );
 };
