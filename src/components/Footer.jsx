@@ -84,7 +84,7 @@ const Footer = () => {
     <div>
       <Container>
         <Left>
-          <Logo>Fuck Yeah.</Logo>
+          <Logo>Novel.</Logo>
           <Desc>
             We stand above the rest. True to our natural born selves. We create
             our futures. We define our image.

@@ -7,7 +7,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 90px);
   display: flex;
   position: relative;
   ${mobile({ display: "none" })}
@@ -30,6 +30,7 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
+  display: flex;
 `;
 const InfoContainer = styled.div`
   flex: 1;
@@ -59,7 +60,8 @@ const Image = styled.img`
 const Arrow = styled.div`
   height: 50px;
   width: 50px;
-  background-color: #fff7f7;
+  background-color: #0f0f0f;
+  color: #fff7f7;
   border-radius: 50%;
   display: flex;
   align-items: center;

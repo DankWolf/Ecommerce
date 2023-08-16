@@ -40,11 +40,10 @@ const Circle = styled.div`
   height: 200px;
   border-radius: 50%;
   background-color: white;
-  position: absolute;
+  overflow: hidden;
 `;
 const Image = styled.img`
-  height: 75%;
-  z-index: 2;
+  max-width: 100%;
 `;
 
 const Icon = styled.div`
@@ -68,8 +67,9 @@ const Product = ({ item }) => {
   return (
     <div>
       <Container>
-        <Circle />
-        <Image src={item.img} />
+        <Circle>
+          <Image src={item.img} />
+        </Circle>
         <Info>
           <Icon>
             <ShoppingCartOutlinedIcon />
