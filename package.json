@@ -1,5 +1,6 @@
 {
-  "name": "vite",
+  "homepage": "https://dankwolf.github.io/Ecommerce/",
+  "name": "Ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
