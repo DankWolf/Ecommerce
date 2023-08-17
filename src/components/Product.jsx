@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import { Link } from "react-router-dom";
 
 const Info = styled.div`
   opacity: 0;
@@ -40,11 +41,10 @@ const Circle = styled.div`
   height: 200px;
   border-radius: 50%;
   background-color: white;
-  position: absolute;
+  overflow: hidden;
 `;
 const Image = styled.img`
-  height: 75%;
-  z-index: 2;
+  max-width: 100%;
 `;
 
 const Icon = styled.div`
@@ -68,14 +68,25 @@ const Product = ({ item }) => {
   return (
     <div>
       <Container>
-        <Circle />
-        <Image src={item.img} />
+        <Circle>
+          <Image src={item.img} />
+        </Circle>
         <Info>
           <Icon>
-            <ShoppingCartOutlinedIcon />
+            <Link
+              to={"/cart"}
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <ShoppingCartOutlinedIcon />
+            </Link>
           </Icon>
           <Icon>
-            <SearchOutlinedIcon />
+            <Link
+              to={"/product"}
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <SearchOutlinedIcon />
+            </Link>
           </Icon>
           <Icon>
             <FavoriteBorderOutlinedIcon />

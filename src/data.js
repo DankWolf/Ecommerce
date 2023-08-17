@@ -44,23 +44,23 @@ export const categories = [
 export const popularProducts = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1546913198-cd3e8c88cfca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    img: "https://images.unsplash.com/photo-1545331448-84cbf7100638?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGZhc2hpb24lMjBhY2Nlc3Nvcmllc3xlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1619681348931-12e60177babc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    img: "https://images.unsplash.com/photo-1594174060421-3eec0d749162?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGZhc2hpb24lMjBhY2Nlc3Nvcmllc3xlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 3,
-    img: "https://images.unsplash.com/photo-1572196284554-4e321b0e7e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGFjY2Vzc29yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    img: "https://plus.unsplash.com/premium_photo-1661432956330-4ab5356e7997?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxmYXNoaW9uJTIwYWNjZXNzb3JpZXN8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 4,
-    img: "https://images.unsplash.com/photo-1583291023464-83394f2c67a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    img: "https://images.unsplash.com/photo-1589782431267-fd2907fc06da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxmYXNoaW9uJTIwYWNjZXNzb3JpZXN8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 5,
-    img: "https://images.unsplash.com/photo-1592007359885-0a8ab1fde063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEwfHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    img: "https://images.unsplash.com/photo-1583291023464-83394f2c67a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxhY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 6,
