@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import { Link } from "react-router-dom";
 
 const Info = styled.div`
   opacity: 0;
@@ -72,10 +73,20 @@ const Product = ({ item }) => {
         </Circle>
         <Info>
           <Icon>
-            <ShoppingCartOutlinedIcon />
+            <Link
+              to={"/cart"}
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <ShoppingCartOutlinedIcon />
+            </Link>
           </Icon>
           <Icon>
-            <SearchOutlinedIcon />
+            <Link
+              to={"/product"}
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <SearchOutlinedIcon />
+            </Link>
           </Icon>
           <Icon>
             <FavoriteBorderOutlinedIcon />
