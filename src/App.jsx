@@ -5,7 +5,6 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
 
 const App = () => {
   return (
